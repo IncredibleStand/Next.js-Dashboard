@@ -7,6 +7,11 @@ import { lusitana } from '@/app/ui/fonts';
 // https://www.tremor.so/
 // https://www.chartjs.org/
 // https://airbnb.io/visx/
+type Revenue = {
+  month: string; // e.g., "January", "Feb"
+  revenue: number; // Monthly revenue amount
+};
+
 
 export default async function RevenueChart({
   revenue,
